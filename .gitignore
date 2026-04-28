@@ -1,0 +1,9 @@
+build/
+install/
+log/
+crack_captures/
+crack_captures.zip
+*.zip
+__pycache__/
+*.pyc
+robot\ \(copy\).yaml
