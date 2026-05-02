@@ -69,12 +69,6 @@
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
   </xacro:velodyne_lidar>
 
-  <!-- camera_0 -->
-  <xacro:include filename="$(find clearpath_sensors_description)/urdf/intel_realsense.urdf.xacro"/>
-  <xacro:intel_realsense name="camera_0" parent_link="fath_pivot_0_mount" update_rate="30" image_height="480" image_width="640">
-    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
-  </xacro:intel_realsense>
-
 
   <!-- Manipulators -->
 
